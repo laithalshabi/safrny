@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body {
+    font-family: "cairoFont", 'Cambria, Cochin, Georgia, Times, Times New Roman, serif' !important;
+    background-color: rgb(240, 240, 240);
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    overflow-x: hidden;
+}
+.fly{
+    background-image: url(../imgs/wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    .bg-white{
+        background-color: white;
+    }
+    .about-us {
+        background-color: rgba(65, 155, 155, 0.6);
+        padding: 100px 0;
+        .custom-paragraph {
+            line-height: 2rem;
+        }
+    
+        .company-name {
+            color: $main-color;
+        }
+    }
+}
+
+.bll{
+    border-right: 1px solid rgba(0,0,0,0.1)
+}
+.centerll{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.centerll1{
+    margin-right: 25%;
+}
+div,h2,p,section
+{ 
+    -webkit-transition: all 1s ease; transition: all 1s ease;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.showme {
+    opacity:1 !important;
+}
+
+.services {
+    background-color: $services-bg-color;
+    padding-bottom: 10px;
+    .wrimagecard{	
+        width: 584px;
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        text-align: left;
+        position: relative;
+        background: #fff;
+        box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+        border-radius: 4px;
+        transition: all 0.3s ease;
+
+        .fas{
+        position: relative;
+        font-size: 70px;
+        }
+            
+        .wrimagecard-topimage_header{
+            padding: 20px 20px 0;
+            h2{
+                font-size: 1.4rem;
+            }
+        }
+
+        .wrimagecard-topimage_title {
+            padding: 20px 24px;
+            height: 80px;
+            text-align: center;
+            padding-bottom: 0.75rem;
+            position: relative;
+            p{
+                font-size: 0.8rem;
+            }
+        }
+        .wrimagecard-topimage a {
+            border-bottom: none;
+            text-decoration: none;
+            color: #525c65;
+            transition: color 0.3s ease;
+        }
+
+    }
+}
+
+.journey{
+
+    .card{
+        .card-img {
+            width: 500px
+        }
+
+        h6{
+            font-size: 1.3rem;
+        }
+        .star {
+            color: gold
+        }
+
+        .bg-btn {
+            background-color: $journey-card-btn-color;
+            color: #fff
+        }
+
+        .bg-cart:hover {
+            color: #fff
+        }
+
+        .bg-buy {
+            background-color: green;
+            color: #fff;
+            padding-right: 29px
+        }
+
+        .bg-buy:hover {
+            color: #fff
+        }
+    }
+
+}
+
+.contact-us {
+    background-color: rgba(65, 155, 155, 0.3);
+    .contact{
+        margin-right: 70px;
+        .circle {
+            background: rgba(0, 0, 0, 0.075);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            justify-content: center;
+            line-height: 90px;
+            vertical-align: middle;
+            padding: 5px 10px 5px 10px;
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    .top-menu {
+        .navbar {
+            padding: 0px 20px !important;
+
+            .navbar-nav {
+                a {    
+                    border-bottom: none !important;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-top {  
+        .carousel {
+            .carousel-caption {
+                h1 {
+                    font-size: 30px;
+                }
+    
+                h4 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
