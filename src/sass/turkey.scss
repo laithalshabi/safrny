@@ -1,0 +1,12 @@
+
+.turkey{
+    .about-us,.contact-us {
+        background-color: $turkey-overlay-color;
+    }
+    .journey1 h2{
+        color: $turkey-text-title-color;
+    }
+    .journey1 ul.timeline:before{
+    background-color: $turkey-text-title-color;
+    }
+}

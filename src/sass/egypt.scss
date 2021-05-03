@@ -1,0 +1,11 @@
+.egypt{
+    .about-us,.contact-us {
+        background-color: $egypt-overlay-color;
+    }
+    .journey1 h2{
+        color: $egypt-text-title-color;
+    }
+    .journey1 ul.timeline:before{
+    background-color: $egypt-text-title-color;
+    }
+}

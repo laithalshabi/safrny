@@ -34,11 +34,11 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
-              outputPath: "imgs",
-            }
+              name: '[path][name].[ext]',
+              context: 'src',
+            },
           },
-        ],
+          ],
       },
 
       {
@@ -98,8 +98,13 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/landing.html',
-      filename: 'landing.html',
+      template: './src/egypt.html',
+      filename: 'egypt.html',
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/turkey.html',
+      filename: 'turkey.html',
     }),
 
 

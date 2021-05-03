@@ -8,6 +8,7 @@ body {
     background-color: rgb(240, 240, 240);
 }
 
+
 .journey1 {
     padding-top: 30px;
     text-align: right;
@@ -74,33 +75,8 @@ body {
 
         }
     }
-
+    .carousel-inner{
+        width:100%;
+        max-height: 600px !important;
+    }
 }  
-  .gallery-block{ 
-    padding-bottom: 20px;
-    padding-top: 20px;
-        .item{
-        overflow: hidden;
-        margin-bottom: 0;
-        background: black;
-        opacity: 1;
-        .image{
-            transition: 0.8s ease;
-            size: 100%;
-          }
-    }
-}
-@media (min-width: 576px) {
-  
-    .zoom-on-hover:hover .image {
-      transform: scale(1.3);
-      opacity: 0.7; 
-    }
-    .image{
-        min-height: 239.09px !important;
-        max-height: 239.09px !important;
-        max-width: 358.66px !important;
-        min-width: 358.66px !important;
-    }
-}
-  
